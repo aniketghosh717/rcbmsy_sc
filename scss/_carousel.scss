@@ -1,0 +1,91 @@
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  
+  h2{
+    font-family:sans-serif;
+    color:#000;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+ 
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-dots{
+      text-align: center;
+      
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+  .wrapper .slick-dots li button:before {
+    font-size:20px;
+    color:black;
+  }
+  button{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .slide-arrow{
+    padding: -20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+  }
+  .prev-arrow{
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #f8078d;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    @media #{$xs}{
+      left: -15px;
+      width: 0;
+      height: 0;
+      border-left: 0 solid transparent;
+      border-right: 15px solid #f8078d;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+    }
+  }
+  .next-arrow{
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #f8078d;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    @media #{$xs}{
+      right: -1px;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-right: 0 solid transparent;
+      border-left: 15px solid #f8078d;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+    }
+  }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,22 @@
+.single-services{
+    .details-img{
+        img{
+            width: 100%;
+        }
+    }
+    .details-caption{
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 1.2;
+            font-family: $font_3;
+        }
+        h3{
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 1.2;
+            font-family: $font_3;
+        }
+    }
+}

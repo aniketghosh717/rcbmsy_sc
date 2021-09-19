@@ -1,0 +1,67 @@
+.experience-area{
+   
+    background-image: url(../img/gallery/tt.jpg);
+    position: relative;
+    z-index: 0;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media #{$md}{
+        margin-top: 20%;
+    }
+    @media #{$sm}{
+        margin-top: 20%;
+        height: 500px;
+    }
+    @media #{$xs}{
+        margin-top: 10%;
+    }
+    .caption-overlay{
+        position: absolute;
+        content: "";
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 55%;
+        height:500px;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+        background-repeat: no-repeat;
+        @media #{$md}{
+            width: 85%;
+        }
+        @media #{$sm}{
+            width: 100%;
+        }
+        @media #{$xs}{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
+    .experience-caption{
+        
+        padding-bottom: 120px;
+        position: relative;
+        z-index: 1;
+        h2 {
+            font-family: $font_3;
+            color: #fff;
+            font-size: 50px;
+            display: block;
+            font-weight: 600;
+            
+            margin-bottom: 30px;
+            @media #{$sm}{
+                font-size: 45px;
+            }
+            @media #{$xs}{
+                font-size: 40px;
+            }
+        }
+        p{
+            color: #fff;
+            margin-bottom: 47px;
+        }
+    }
+}
+

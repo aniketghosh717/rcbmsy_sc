@@ -1,0 +1,42 @@
+// Defult
+	@import 'variables';
+	@import 'mixins';
+	@import 'overlay';
+	@import 'common';
+	@import 'color';
+
+
+// Homepage1
+	@import 'headerMenu';
+	@import 'h1-hero';
+	@import 'services_section';
+	@import 'support-company';
+	
+
+	
+	@import 'project-area';
+	@import 'footer';
+
+// inner Page
+	
+	@import 'details';
+
+
+// Deful Element Page
+
+
+	@import 'extend';
+	@import 'elements';
+
+// Carousel Page
+    @import 'carousel';
+
+
+// Contact
+    @import'contact';
+//Donate
+@import 'donate';
+@import 'teamhome';
+
+//Events
+@import 'events';
