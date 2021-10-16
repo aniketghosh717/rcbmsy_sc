@@ -1,3 +1,2 @@
-rcbmsy_sc
-live :
+rcbmsy_sc:
 http://rcbmsy.herokuapp.com/
